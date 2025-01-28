@@ -32,7 +32,7 @@ habitat:
     ee_sample_factor: 0.8
 
     # In radians
-    base_angle_noise: 0.0
+    base_angle_noise: 0.0 
     base_noise: 0.0
     constraint_violation_ends_episode: False
 
@@ -49,17 +49,17 @@ habitat:
         radius: 0.3
         sim_sensors:
           head_rgb_sensor:
-            height: 128
-            width: 128
+            height: 1080
+            width: 1920
           head_depth_sensor:
-            height: 128
-            width: 128
+            height: 1080
+            width: 1920
           arm_depth_sensor:
-            height: 128
-            width: 128
+            height: 1080
+            width: 1920
           arm_rgb_sensor:
-            height: 128
-            width: 128
+            height: 1080
+            width: 1920
     habitat_sim_v0:
       enable_physics: True
   dataset:
